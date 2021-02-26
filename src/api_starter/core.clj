@@ -14,7 +14,7 @@
   "Generating some dummy sample data to populate the DB"
   [n]
   (let [first-names  ["Johnny" "Ann" "Marie" "Stefan"]
-        last-names   ["Smith" "Kowalsky" "Franz"]
+        last-names   ["Smith" "Kowalsky" "Wolf"]
         categories   ["Premium" "Classic" "FreeAccount"] ]
     (->> (range n)
          (map (fn [i]

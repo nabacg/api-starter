@@ -21,5 +21,6 @@ clojure -X:run-server
 
 ``` bash
 curl localhost:8031
-
+{"Premium":[{"firstname":"Ann","lastname":"Franz","category":"Premium","age":44,"username":"afranz"},{"firstname":"Marie","lastname":"Smith","category":"Premium","age":81,"username":"msmith"},{"firstname":"Marie","lastname":"Franz","category":"Premium","age":79,"username":"mfranz"},{"firstname":"Stefan","lastname":"Franz","category":"Premium","age":47,"username":"sfranz"},{"firstname":"Ann","lastname":"Kowalsky","category":"Premium","age":36,"username":"akowalsky"},{"firstname":"Marie","lastname":"Kowalsky","category":"Premium","age":71,"username":"mkowalsky"},{"firstname":"Marie","lastname":"Kowalsky","category":"Premium","age":28,"username":"mkowalsky"},{"firstname":"Stefan","lastname":"Franz","category":"Premium","age":44,"username":"sfranz"},{"firstname":"Ann","lastname":"Smith","category":"Premium","age":73,"username":"asmith"},{"firstname":"Stefan","lastname":"Kowalsky","category":"Premium","age":34,"username":"skowalsky"},{"firstname":"Johnny","lastname":"Kowalsky","category":"Premium","age":41,"username":"jkowalsky"},{"firstname":"Stefan","lastname":"Franz","category":"Premium","age":60,"username":"sfranz"},{"firstname":"Johnny","lastname":"Franz","category":"Premium","age":67,"username":"jfranz"}
+....
 ```
