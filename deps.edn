@@ -1,0 +1,15 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        ;; Http deps
+        ring/ring-core {:mvn/version "1.8.0"}
+        ring/ring-jetty-adapter {:mvn/version "1.8.0"}
+        ring/ring-json {:mvn/version "0.5.0"}
+        ;; json parsing
+        cheshire/cheshire {:mvn/version "5.10.0"}
+        ;; jdbc lib
+        org.clojure/java.jdbc  {:mvn/version "0.7.11"}
+        ;; h2 database drivers
+        com.h2database/h2  {:mvn/version "1.4.199"}}
+ :paths ["src"]
+ ;;define how to run it
+ :aliases {:run-server
+           {:exec-fn api-starter.core/-main}}}
