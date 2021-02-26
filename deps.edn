@@ -10,6 +10,6 @@
         ;; h2 database drivers
         com.h2database/h2  {:mvn/version "1.4.199"}}
  :paths ["src"]
- ;;define how to run it
+ ;;define entry point
  :aliases {:run-server
            {:exec-fn api-starter.core/-main}}}
