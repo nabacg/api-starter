@@ -1,8 +1,5 @@
 (ns api-starter.core
   (:require   [ring.adapter.jetty :as jetty]
-              [ring.middleware.json]
-              [ring.middleware.params]
-              [ring.middleware.keyword-params]
               [clojure.java.jdbc :as jdbc]
               [clojure.java.io :as io]
               [clojure.string :as string]
